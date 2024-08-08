@@ -11,3 +11,13 @@
 
 // Structs are used to create custom data types
 // to create an object like a class in other languages
+#[derive(Debug)]
+struct Deck {
+    cards: Vec<String>,
+}
+// spent a hour hour in this little bit of code
+fn main() {
+    let deck = Deck{ cards: vec![]};
+
+    println!("Heres your deck: {:?}", deck);
+}
